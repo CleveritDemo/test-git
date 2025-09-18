@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 # compiled output
 /dist
 /node_modules
 /build
+=======
+# Nestjs specific
+/dist
+/node_modules
+/build
+/tmp
+>>>>>>> 9afd423dc82c7ec288b290800a4e17b1d765390f
 
 # Logs
 logs
@@ -12,6 +20,7 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+<<<<<<< HEAD
 # OS
 .DS_Store
 
@@ -41,10 +50,18 @@ lerna-debug.log*
 .env.test.local
 .env.production.local
 .env.local
+=======
+# dotenv environment variable files
+.env
+.env.development
+.env.test
+.env.production
+>>>>>>> 9afd423dc82c7ec288b290800a4e17b1d765390f
 
 # temp directory
 .temp
 .tmp
+<<<<<<< HEAD
 
 # Runtime data
 pids
@@ -56,3 +73,5 @@ pids
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 # .gitignore principal
 Este archivo .gitignore ahora contiene todas las reglas necesarias para el proyecto.
+=======
+>>>>>>> 9afd423dc82c7ec288b290800a4e17b1d765390f
